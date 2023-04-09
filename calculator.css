@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+}
+body{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(60deg, #000000,#4F4557);
+    color:#ffffff;
+    font-size: 20px;
+   
+}
+h1{
+   text-align: center;
+   margin:50px;
+
+}
+
+
+.calculator{
+ 
+   border: 1px solid #717377;
+   padding:20px;
+   border-radius: 15px;
+  box-shadow: 3px 3px 3px  3px #675D50;
+  display: block;
+  margin: 0 auto;
+  width:fit-content;
+  /* align-items: center;
+  justify-content: center; */
+}
+input{
+    height:55px;
+    width: 280px;
+    margin-bottom: 12px;
+    box-shadow: 2px 2px 2px 2px #675D50;
+    text-align: right;
+    font-size: 23px;
+    padding: 10px;
+    color:#000000;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    border:none;
+    background:#F3DEBA;
+    cursor: pointer;
+}
+
+button{
+    width:50px;
+    height:40px;
+    margin: 5px;
+    border-radius: 40px;
+    background: transparent;
+    color:#ffffff;
+    font-size: 20px;
+    border: none;
+    box-shadow:2px 2px 2px  2px #675D50;
+    cursor: pointer;
+}
+
+.delbtn{
+    color:#D21312;
+}
+
+.acbtn{
+    color:#159895;
+    
+}
